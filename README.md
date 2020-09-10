@@ -42,7 +42,11 @@ THEN I find a concise, descriptive title
 
 ## Installation
 
-dsds
+The way to access this project is to go to my GitHub site and to clone my horiseon-code-refractor repository from here : https://github.com/Adellis95
+
+Then you pull the cloned repository into your terminal/GitBash by using the "git pull (git@github.com:Adellis95/horiseon-code-refactor.git)
+
+Afterwards, you change directories until you are in the horiseon-code-refactor repository and open the file in your code editor by typing "code ."
 
 ## Credit
 
