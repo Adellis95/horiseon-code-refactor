@@ -87,7 +87,7 @@ a {
 }
 
 /* since seo is already defined .header and h1 were unneccesary */
-#seo {
+.seo {
   color: #d9dcd6;
 }
 
@@ -122,9 +122,7 @@ p {
 } */
 
 /* Consolidated the Section for cleaner code */
-#search-engine-optimization,
-#online-reputation-management,
-#social-media-marketing {
+.section-content {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -157,13 +155,13 @@ p {
   margin-right: 25px;
 } */
 
-#online-reputation-management img {
+.section-right-image {
   max-height: 200px;
   float: right;
   margin-left: 25px;
 }
 /* Consolidated the images Floating Left */
-.Social-left-image {
+.section-left-image {
   max-height: 200px;
   float: left;
   margin-right: 25px;
@@ -192,9 +190,7 @@ p {
   color: #ffffff;
 } */
 
-.benefit-cost,
-.benefit-brand,
-.benefit-lead {
+.benefit {
   margin-bottom: 32px;
   color: #ffffff;
 }

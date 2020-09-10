@@ -15,7 +15,7 @@
   <body>
     <!-- Added a class to the header -->
     <header class="header">
-      <h1>Hori<span id="seo">seo</span>n</h1>
+      <h1>Hori<span class="seo">seo</span>n</h1>
       <div>
         <ul>
           <li>
@@ -34,13 +34,14 @@
     </header>
     <!-- According to the Semantic Elements for html this is the <nav> even though the navigation is in the Header -->
     <nav class="hero"></nav>
-    <!-- Maini Section -->
+    <!-- Main Section -->
     <section class="content">
       <!-- Added <article> within the section -->
-      <article id="search-engine-optimization">
-        <!-- deleted class -->
+      <!-- Added a the same class for each article to help consolidate the stlying -->
+      <article class="section-content">
+        <!-- Added class to the images in this section to help consolidate the styling -->
         <img
-          class="Social-left-image"
+          class="section-left-image"
           src="./assets/images/search-engine-optimization.jpg"
           alt="Increase your Visibility for finding the right customers for your business"
         />
@@ -52,9 +53,9 @@
           visibility and find the right customers for your business.
         </p>
       </article>
-      <!-- Deleted class and changed in stlye.css -->
-      <article id="online-reputation-management">
+      <article class="section-content">
         <img
+          class="section-right-image"
           src="./assets/images/online-reputation-management.jpg"
           alt="Allows you to control what Customers see when they search your business"
         />
@@ -67,10 +68,9 @@
           business.
         </p>
       </article>
-      <!-- Deleted class and changed in style.css -->
-      <article id="social-media-marketing">
+      <article class="section-content">
         <img
-          class="Social-left-image"
+          class="section-left-image"
           src="./assets/images/social-media-marketing.jpg"
           alt="Using analytics to find the best platforms for your brand and the right markets to increase your lead generation"
         />
@@ -85,7 +85,7 @@
     </section>
     <!-- This is an Aside according to the Semantic Elements -->
     <aside class="benefits">
-      <div class="benefit-lead">
+      <div class="benefit">
         <!-- Added alt to imgages in the Benefits aside -->
         <h3>Lead Generation</h3>
         <img
@@ -98,7 +98,7 @@
           business, bringing customers directly to your website.
         </p>
       </div>
-      <div class="benefit-brand">
+      <div class="benefit">
         <h3>Brand Awareness</h3>
         <img
           class="benefit-image"
@@ -110,7 +110,7 @@
           the search ranking and visibility for your business.
         </p>
       </div>
-      <div class="benefit-cost">
+      <div class="benefit">
         <h3>Cost Management</h3>
         <!-- Unnecessary img ending -->
         <img
