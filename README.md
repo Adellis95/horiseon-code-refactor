@@ -1,5 +1,9 @@
 # horiseon-code-refactor
 
+## Description
+
+The Horiseon is a website that provides information on Search Engine Optimization, Online Reputation Management, and Social Media Marketing for your business. Horiseon also brings awareness to your Lead Generation, Brand Awareness, and Cost Management. The purpose for this project was to refactor the website so that it follows accessibility standards and that it is optimized for search engines. Throughout this project I have learned, in greater detail, about: adding Alt tags to images, adding semantic elements to html, and consolidating css selectors.
+
 ## Table of Contents
 
 - [Acceptance_Criteria](#acceptance-criteria)
@@ -11,10 +15,6 @@
 - [Contributing](#contributing)
 
 - [License](#license)
-
-## Description
-
-The Horiseon is a website that provides information on Search Engine Optimization, Online Reputation Management, and Social Media Marketing for your business. Horiseon also brings awareness to your Lead Generation, Brand Awareness, and Cost Management. The purpose for this project was to refactor the website so that it follows accessibility standards and that it is optimized for search engines. Throughout this project I have learned, in greater detail, about: adding Alt tags to images, adding semantic elements to html, and consolidating css selectors.
 
 ## Screenshots
 
@@ -54,7 +54,9 @@ dsds
 
 ## Contributing
 
-dsd
+Pull requests are welcome. For major changes, please contact me first to discuss what you would like to change.
+
+Follow the industry standard protocols [Contributor Covenant](https://www.contributor-covenant.org/)
 
 ## License
 
